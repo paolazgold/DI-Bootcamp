@@ -92,7 +92,7 @@ Write code that will ask the user for their height in centimeters.
 If they are over 145 cm, print a message that states they are tall enough to ride.
 If they are not tall enough, print a message that says they need to grow some more to ride."""
 
-roller_coaster_height = int(input("What is your height? Please answer in cm"))
+roller_coaster_height = int(input("What is your height? Please answer in cm "))
 
 if roller_coaster_height < 145:
     print("You still need to grow some cm to ride")
